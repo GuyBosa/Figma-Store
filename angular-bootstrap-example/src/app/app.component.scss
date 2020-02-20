@@ -1,0 +1,95 @@
+/* You can add global styles to this file, and also import other style files */
+
+#main{
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    height: 100%;
+}
+
+.header-component{
+    width: 1300px;
+    height: 77px;
+    /* justify-content: flex-start; */
+    display: flex;
+    align-items: center;
+    // font-family: Suez One;
+    font-style: normal;
+    font-weight: bold;
+    // font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: #111111;
+}
+
+.links{
+    justify-content: space-evenly;
+    width: 380px;
+    display: flex;
+}
+
+.sign-up{
+    justify-content: space-evenly;
+    display: flex; 
+    align-self: center;
+    margin: 0 0 0 100px;}
+
+.signuptab, .shoes-tab{
+    color: #00A2FF;
+}
+
+.nav-icons{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin: 0 0px 0px 100px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .loginbutton {
+    margin: 0 0 0 40px;
+    background-color: white; 
+    color: #00A2FF; 
+    border: 3px solid #00A2FF;
+    width: 115px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    // font-family: Suez One;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+/* -------------------------------------------- */
+
+  .reway-logo{
+    margin: 10px 40px 10px 40px;
+  }
+  
+  html, body, #root, .main-container{
+    display: flex;
+    height: 100%;
+    width: fit-content;
+    margin: 0 0 0 0;
+    overflow: hidden;
+  }
+  
